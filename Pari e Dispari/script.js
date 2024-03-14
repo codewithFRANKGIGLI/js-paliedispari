@@ -29,7 +29,7 @@ function playGame(userChoice, userNumber) {
     
     if (userChoice === 'pari' && isSumEven) {  // se la scelta è pari e la somma è pari
         return 'Hai vinto!!';
-    } else if (userChoice === 'dispari' && !isSumEven) {  // sel a scelta è dispari e la somma non è pari
+    } else if (userChoice === 'dispari' && !isSumEven) {  // se la scelta è dispari e la somma non è pari
         return 'Hai vinto!';
     } else { // altrimenti GAME OVER!!!
         return 'Hai perso!';
